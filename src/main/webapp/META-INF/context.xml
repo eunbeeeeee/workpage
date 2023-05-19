@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource 
+    name="jdbc/mywork"
+    auth="Container"
+    type="javax.sql.DataSource"
+    username="root"
+    password="dmsql123"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost/mywork?useUnicode=true&amp;characterEncoding=UTF-8"
+    maxActive="10"
+    maxIdle="5"
+    removeAbandoned="true"
+/>
+</Context>
